@@ -32,7 +32,7 @@ pipeline {
 
     stage('Test') {
       steps{
-        sh "curl -f -v http://192.168.33.10/api/info"
+        sh "curl -f -v http://20.188.56.234/api/info"
       }
       when {
         environment name: 'ENVIRONMENT', value: 'dev'
