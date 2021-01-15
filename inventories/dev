@@ -6,7 +6,7 @@ srv2 ansible_host=20.188.56.234 ansible_user=nickfury ansible_become=true ansibl
 srv1 ansible_host=20.188.56.234 ansible_user=nickfury ansible_become=true ansible_port=22
 
 # gui
-[frontend:children
+[frontend:children]
 app
 
 # api
