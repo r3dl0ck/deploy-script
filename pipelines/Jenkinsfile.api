@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    COMMAND = "/opt/virtualenv/ansible/bin/ansible-playbook"
+    COMMAND = "ansible-playbook"
     PLAYBOOK = "api-deploy.yml"
   }
 
