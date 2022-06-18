@@ -1,7 +1,7 @@
 ---
-- import_tasks: drain.yml
-  tags:
-    - drain
+#- import_tasks: drain.yml
+#  tags:
+#    - drain
 
 - name: Launch API container
   community.general.docker_container:
@@ -19,6 +19,6 @@
     env:
       PORT: "{{ api_port | string }}"
 
-- import_tasks: enable.yml
-  tags:
-    - drain
+#- import_tasks: enable.yml
+#  tags:
+#    - drain
